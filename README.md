@@ -12,7 +12,7 @@ The **Legal Information Retrieval System** is an advanced application designed t
 - **Document Similarity**: Develop an intuitive user interface for easy navigation and access to legal documents.
 - **Case Summaries**: Offer concise summaries of legal cases, highlighting key points, outcomes, and relevant laws.
 
-## Technologies Used
+<!-- ## Technologies Used
 
 - **Frontend**: React.js, HTML5, CSS3
 - **Backend**: Node.js, Express.js
@@ -37,4 +37,4 @@ Set up the database and environment variables as per the config.example.js file.
 3. Start the application:
 
    ```bash
-   npm start
+   npm start -->
