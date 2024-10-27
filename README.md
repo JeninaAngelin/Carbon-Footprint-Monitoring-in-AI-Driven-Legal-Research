@@ -26,13 +26,12 @@ The **Legal Information Retrieval System** is an advanced application designed t
    ```bash
    git clone https://github.com/username/legal-info-retrieval.git
    cd legal-info-retrieval
-'''
 
 2. Install dependencies:
 
    ```bash
    npm install
-'''
+
 Set up the database and environment variables as per the config.example.js file.
 
 3. Start the application:
