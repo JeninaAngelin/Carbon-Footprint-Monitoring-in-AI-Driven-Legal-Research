@@ -1,66 +1,41 @@
-# Land Use Classification Project
+# Legal Information Retrieval System
 
-## Project Description
-This project focuses on the classification of land use types using Sentinel-2 satellite imagery. The objective is to analyze and classify different land cover types, such as urban areas, forests, agricultural lands, and water bodies, using machine learning techniques. By leveraging satellite data, we aim to provide accurate and timely land use information for environmental monitoring, urban planning, and resource management.
+## Project Overview
 
-## Methodology
-The methodology for this project includes the following steps:
+The **Legal Information Retrieval System** is an advanced application designed to enhance legal research by providing users with efficient and relevant retrieval of legal case summaries, statutes, and regulations. The system leverages semantic search, knowledge graphs, and natural language processing (NLP) techniques to enable legal professionals, researchers, and students to access and analyze legal information seamlessly.
 
-1. **Data Collection**: 
-   - Acquire Sentinel-2 satellite imagery for the target study area.
-   - Gather ancillary data, such as land use maps and ground truth information.
+## Features
 
-2. **Data Reprojection**: 
-   - Reproject satellite images to a common coordinate reference system to ensure spatial alignment.
+- **Information Retrieval**: Utilize NLP algorithms to allow users to search for legal cases and information using natural language queries.
+- **Knowledge Graph Integration**: Implement a semantic search that connects related cases, statutes, and regulations, facilitating better understanding and contextual insights.
+- **Explanations**: Provide advanced filtering options based on jurisdiction, case type, date, and relevance.
+- **Document Similarity**: Develop an intuitive user interface for easy navigation and access to legal documents.
+- **Case Summaries**: Offer concise summaries of legal cases, highlighting key points, outcomes, and relevant laws.
 
-3. **Data Cleaning**: 
-   - Preprocess the data by removing clouds and atmospheric effects using appropriate algorithms.
+## Technologies Used
 
-4. **Feature Extraction**:
-   - Extract relevant features from the satellite images, including:
-     - Spectral indices (e.g., NDVI, NDWI)
-     - Texture metrics (e.g., roughness, TPI)
+- **Frontend**: React.js, HTML5, CSS3
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB
+- **NLP Tools**: spaCy, NLTK
+- **Search Engine**: Elasticsearch
 
-5. **Model Training**:
-   - Split the dataset into training and validation sets.
-   - Train various machine learning models, such as:
-     - Logistic Regression
-     - Random Forest
-     - Support Vector Machines
-     - Artificial Neural Networks
+## Installation
 
-6. **Prediction**:
-   - Use the trained models to predict land use classes on the validation dataset.
-   - Generate land use classification maps.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/username/legal-info-retrieval.git
+   cd legal-info-retrieval
+'''
 
-7. **Model Evaluation**:
-   - Assess model performance using metrics such as:
-     - Overall accuracy
-     - Kappa statistics
-   - Compare results across different models to identify the best-performing approach.
+2. Install dependencies:
 
-## Requirements
-### Hardware
-- A computer with at least:
-  - 8 GB RAM
-  - 4 CPU cores
-  - 100 GB of available disk space for data storage
+   ```bash
+   npm install
+'''
+Set up the database and environment variables as per the config.example.js file.
 
-### Software
-- Python 3.x with the following libraries:
-  - NumPy
-  - Pandas
-  - scikit-learn
-  - Geopandas
-  - Rasterio
-  - Matplotlib
-  - OpenCV
+3. Start the application:
 
-### Data
-- Sentinel-2 satellite imagery for the study area.
-- Ground truth data for model validation.
-
-## Expected Outcomes
-- Accurate land use classification maps.
-- Insights into land use patterns and changes over time.
-- A comprehensive analysis of model performance.
+   ```bash
+   npm start
