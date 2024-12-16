@@ -1,4 +1,6 @@
-# Legal Information Retrieval System
+# AI's Carbon Footprint caused by Information Retrieval System: A Case Study
+
+This project was presented at the **15th ICEEE 2024 Online International Annual Conference**, held on November 21st and 22nd, 2024, at Obuda University, Budapest, Hungary. The presentation highlighted the system’s innovative integration of AI-based legal research and its commitment to sustainability by minimizing carbon footprints.
 
 ## Project Overview
 
@@ -43,12 +45,6 @@ The Legal Information Retrieval System is designed to improve legal research eff
 ### **Computational Resource Analysis**
 - Calculate energy metrics such as kWh and CO₂ emissions for each operational stage.
 - Use Python libraries like Carbon Tracker and pynvml to assess and minimize resource utilization.
-
----
-
-## Conference Presentation
-
-This project was presented at the **15th ICEEE 2024 Online International Annual Conference**, held on November 21st and 22nd, 2024, at Obuda University, Budapest, Hungary. The presentation highlighted the system’s innovative integration of AI-based legal research and its commitment to sustainability by minimizing carbon footprints.
 
 ---
 
