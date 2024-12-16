@@ -78,6 +78,23 @@ The total training hours amounted to **2 hours and 46 minutes**, with the final 
 
 ---
 
+# Tools Used
+
+### **Natural Language Processing (NLP) Tools**
+
+- **NLTK**: Employed for stemming and stopword removal to clean and prepare text data.
+- **Hugging Face Transformers**: Utilized for implementing pretrained models (e.g., BERT, RoBERTa) to compute embeddings and perform semantic similarity analysis.
+- **CodeCarbon**: Tracks energy consumption (kWh) and calculates the corresponding carbon emissions (kg CO₂) for different computational tasks.
+- **gpustat**: Monitors GPU utilization and power consumption in real-time during model training and inference.
+- **Carbon Tracker**: Measures energy usage and carbon emissions of machine learning models, helping identify energy-intensive stages.
+- **lxml**: Efficient XML parsing library used to extract and clean legal document data.
+- **PyTorch**: An alternative deep learning framework used for custom model implementations and optimization.
+- **Energy-Efficient Algorithms**: Implements optimized algorithms for retrieval tasks to reduce computation without sacrificing accuracy.
+
+By leveraging these tools, the system maintains a balance between high performance and sustainability, ensuring accurate results while minimizing environmental impact.
+
+---
+
 ## Conclusion
 
 The Legal Information Retrieval System not only enhances legal research but also serves as a model for sustainable AI development. By integrating energy monitoring and optimization tools, the system addresses the dual goals of accuracy and environmental responsibility. Future advancements can focus on further reducing energy consumption through innovative architectures and real-time carbon tracking mechanisms.
