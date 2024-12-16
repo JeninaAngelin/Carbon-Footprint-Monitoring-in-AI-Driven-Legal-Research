@@ -6,6 +6,15 @@ This project was presented at the **15th ICEEE 2024 Online International Annual 
 
 The Legal Information Retrieval System is designed to improve legal research efficiency by enabling the retrieval of relevant case summaries and legal documents. The system focuses on sustainability by tracking and optimizing energy consumption throughout its operations. Using natural language processing (NLP), semantic similarity engines, and energy monitoring tools, it provides legal professionals and researchers with accurate, environmentally-conscious tools for document retrieval.
 
+To ensure sustainability, the system analyzes the following aspects:
+
+- **Energy Consumption**: Tracks electricity usage (kWh) for various tasks, including data preprocessing, embedding collection, model training, and document retrieval.
+- **Carbon Emissions**: Calculates CO₂ emissions generated during computational tasks to assess environmental impact.
+- **Optimization Potential**: Identifies high-impact stages in the workflow (e.g., model training and inference) where energy and resource efficiency can be improved.
+- **Efficiency Metrics**: Monitors GPU and CPU utilization to optimize performance while minimizing waste.
+- **Algorithmic Efficiency**: Evaluates and implements energy-efficient algorithms to reduce computational overhead.
+- **Sustainability Insights**: Provides actionable recommendations for using renewable energy sources, optimizing code, and adopting green AI practices.
+
 ---
 
 ## Features
