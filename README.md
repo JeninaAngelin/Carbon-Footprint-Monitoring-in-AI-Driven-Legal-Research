@@ -59,14 +59,16 @@ To ensure sustainability, the system analyzes the following aspects:
 
 ## Environmental Impact and Carbon Footprint Results
 
-The project meticulously tracked energy consumption and carbon emissions at various stages of development. Key results include:
+The project meticulously tracked energy consumption and carbon emissions at various stages of development. The results are summarized in the table below:
 
-- **XML Cleaning**: Consumed 0.12 kWh, resulting in 0.054 kg CO₂ emissions with high optimization potential.
-- **Embedding Collection**: Required 0.35 kWh, producing 0.157 kg CO₂ emissions with moderate optimization potential.
-- **Model Training**: Utilized 1.24 kWh, leading to 0.558 kg CO₂ emissions, representing the most energy-intensive stage.
-- **Document Retrieval**: Consumed 0.18 kWh, generating 0.081 kg CO₂ emissions, with significant scope for optimization.
+| **Stage**               | **Energy Consumption (kWh)** | **Carbon Emissions (kg CO₂)** | **Optimization Potential**       |
+|--------------------------|-----------------------------|-------------------------------|-----------------------------------|
+| **XML Cleaning**         | 0.12                       | 0.054                         | High                             |
+| **Embedding Collection** | 0.35                       | 0.157                         | Moderate                         |
+| **Model Training**       | 1.24                       | 0.558                         | High (most energy-intensive)     |
+| **Document Retrieval**   | 0.18                       | 0.081                         | Significant                      |
 
-The total training hours amounted to **2 hours and 46 minutes**, with the final output achieving accurate retrieval of top-k related legal cases based on semantic similarity. These findings underscore the importance of energy-efficient practices in AI systems, particularly during model training and deployment.
+This table highlights the stages with the greatest environmental impact and identifies opportunities for optimization. The total training hours amounted to **2 hours and 46 minutes**, with the final output achieving accurate retrieval of top-k related legal cases based on semantic similarity. These findings underscore the importance of energy-efficient practices in AI systems, particularly during model training and deployment.
 
 ---
 
